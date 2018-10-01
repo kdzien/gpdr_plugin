@@ -1,0 +1,5 @@
+1. Zmienne zadeklarowane za pomocą var mają zasięg funkcyjny, a za pomocą let zasięg blokowy.
+2. Nie znałem odpowiedzi na to pytanie.
+3. npm to manager paczek dla srodowiska node. Webpack głownie sluzy do łączenia drzewa zależnosci w plikach js w jeden, zrozumialy dla przegladarki oraz możemy za jego pomocą zautomatyzowac pewne procesy(np. przeladowanie przegladarki czy zmiana sass na css).
+4. Kiedy przeglądarka podczas parsowania kodu HTML natrafi na tag script z atrybutem async, skrypt ten jest pobierany rownolegle z parsowaniem kodu. Dopiero gdy skrypt sie pobierze, 
+parsowanie HTML jest przerwane i skrypt jest wykonywany. defer działa podobnie, z tym że skrypt nie jest wykonywany po pobraniu, tylko po zakończeniu parsowania całego dokumentu HTML.
